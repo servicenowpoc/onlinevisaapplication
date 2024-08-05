@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
         <disabled>true</disabled>
         <field>qualification</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2019-01-10 18:06:37</sys_updated_on>
         <table>x_300454_visa_app_visa_application</table>
         <ui_policy display_value="Make all fields read only after send for review">9512caaf4fbe63008f3133718110c7fe</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf6402234ffe63008f3133718110c7e0"/>
 </record_update>

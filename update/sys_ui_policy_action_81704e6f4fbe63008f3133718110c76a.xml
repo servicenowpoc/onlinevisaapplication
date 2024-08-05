@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
         <disabled>true</disabled>
         <field>visa_status</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2019-01-10 17:49:06</sys_updated_on>
         <table>x_300454_visa_app_visa_application</table>
         <ui_policy display_value="visa status read only">12ef396f4fbe63008f3133718110c7dc</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=81704e6f4fbe63008f3133718110c76a"/>
 </record_update>

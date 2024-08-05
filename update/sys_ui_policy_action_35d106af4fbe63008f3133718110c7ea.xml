@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>passport_number</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2019-01-10 17:54:51</sys_updated_on>
         <table>x_300454_visa_app_visa_application</table>
         <ui_policy display_value="Make fields mandatory on visa form">82f0c26f4fbe63008f3133718110c7dd</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=35d106af4fbe63008f3133718110c7ea"/>
 </record_update>
